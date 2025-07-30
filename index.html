@@ -2,36 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Order Summary Card</title>
 </head>
 <body>
+  <div class="page-wrapper">
+    <main class="card">
+      <article class="order-card">
+        <header class="order-card__header">
+          <img src="./images/illustration-hero.svg" alt="Person enjoying music with headphones" class="order-card__image">
+        </header>
 
-  Order Summary
+        <div class="order-card__content">
+          <h1 class="order-card__title">Order Summary</h1>
+          <p class="order-card__description">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+          <section class="subscription-plan">
+            <img src="./images/icon-music.svg" alt="" class="subscription-plan__icon" aria-hidden="true">
+            <div class="subscription-plan__details">
+              <h2 class="subscription-plan__title">Annual Plan</h2>
+              <p class="subscription-plan__price">$59.99/year</p>
+            </div>
+            <button type="button" class="subscription-plan__change">Change</button>
+          </section>
 
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+          <div class="order-card__actions">
+            <button type="submit" class="btn btn--primary">Proceed to Payment</button>
+            <button type="button" class="btn btn--secondary">Cancel Order</button>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+        Coded by <a href="#">Alex</a>.
+      </p>
+    </footer>
   </div>
 </body>
 </html>
