@@ -6,6 +6,8 @@
   --neutral-dark: hsl(223, 47%, 23%);
   --color-footer: hsl(228, 45%, 44%);
   --color-bg-subscription-plan: hsla(224, 23%, 55%, 5%);
+  --shadow-btn: rgba(56, 42, 224, 0.2);
+  --shadow-card: rgba(0, 0, 0, 0.1);
 
   --font-family: 'Red Hat Display', sans-serif;
   --text-body: 1rem;
