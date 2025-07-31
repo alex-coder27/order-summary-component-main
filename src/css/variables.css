@@ -1,0 +1,23 @@
+:root {
+  --primary: hsl(245, 75%, 52%);
+  --primary-light: hsl(225, 100%, 94%);
+  --neutral-light: hsl(225, 100%, 98%);
+  --neutral-text: hsl(224, 23%, 55%);
+  --neutral-dark: hsl(223, 47%, 23%);
+  --color-footer: hsl(228, 45%, 44%);
+  --color-bg-subscription-plan: hsla(224, 23%, 55%, 5%);
+
+  --font-family: 'Red Hat Display', sans-serif;
+  --text-body: 1rem;
+  --text-title: calc(var(--text-body) * 1.375);
+  --text-plan: calc(var(--text-body) * 0.9375);
+
+  --space-sm: calc(var(--text-body) * 0.5);
+  --space-md: var(--text-body);
+  --space-lg: calc(var(--text-body) * 1.5);
+
+  --radius-sm: calc(var(--text-body) * 0.5);
+  --radius-md: calc(var(--text-body) * 0.75);
+
+  --button-height: calc(var(--text-body) * 2.75);
+}
